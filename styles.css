@@ -1,0 +1,912 @@
+@font-face {
+    font-family: "YO GOTHIC";
+    src: url("./ttf/yugothib.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+.main{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    background: #FFFFFF;
+
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background: url(./pic/Splash.png);
+}
+
+#main{
+    display: block;
+}
+
+.first{
+    position: absolute;
+    width: 286px;
+    height: 40px;
+    left: 50px;
+    top: 110px;
+
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+
+    color: #000000;
+}
+
+.second{
+    position: absolute;
+    width: 275px;
+    height: 26px;
+    left: 50px;
+    top: 160px;
+
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+
+    color: #000000;
+}
+
+.forma{
+    position: absolute;
+    width: 160.02px;
+    height: 176.6px;
+    left: 50px;
+    top: 215px;
+    background: #ffffff00;
+}
+
+.textforma{
+    position: absolute;
+    width: 152px;
+    height: 91px;
+    left: 60px;
+    top: 234px;
+
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 101px;
+
+    color: #000000;
+}
+
+.buttonm{
+    position: absolute;
+    width: 174px;
+    height: 77px;
+    left: 193px;
+    top: 764px;
+    background-color: #000000;
+    border:6px #FFFFFF;
+    background-image: url(./pic/button.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+button:active{
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.315);
+    background-color: rgb(165, 165, 165);
+}
+
+#menu{
+    display: none;
+}
+
+.menu{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Menu1.jpg);
+
+}
+
+.buttonX{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 30px;
+    background-image: url(./pic/crest.png);
+    border: 0px;
+}
+
+.buttondom{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 30px;
+    background-image: url(./pic/dom.png);
+    border: 0px;
+}
+
+#intro{
+    display: none;
+}
+.intro1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Intro.png);
+}
+
+#portfolio{
+    display: none;
+}
+
+.portfolio1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Portfolio.png);
+}
+
+#work{
+    display: none;
+}
+
+.work1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #FFFFFF;
+}
+
+#skills{
+    display: none;
+}
+
+.skills1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #FFFFFF;
+}
+
+.skillstext{
+    position: absolute;
+    width: 312px;
+    height: 616px;
+    left: 50px;
+    top: 200px;
+    
+    /* Copy */
+    
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10px;
+    /* or 130% */
+    
+    
+    color: #000000;
+}
+
+#interest{
+    display: none;
+}
+
+.interest1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Interests.png);
+    background-color: #FFFFFF;
+}
+
+#contact{
+    display: none;
+}
+
+.contact1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Contact.png);
+    background-color: #FFFFFF;
+}
+
+#cookie2{
+    display: none;
+}
+
+.cookie1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Cookie.png);
+    background-color: #FFFFFF;
+}
+
+#education{
+    display: none;
+}
+
+.education1{
+    position: absolute;
+    width: 414px;
+    height: 896px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(./pic/Education.png);
+}
+
+.educationtext1{
+    position: absolute;
+width: 200px;
+height: 40px;
+left: 50px;
+top: 110px;
+
+/* Header */
+
+font-family: Spartan;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 40px;
+
+color: #000000;
+}
+
+.educationtext2{
+    position: absolute;
+    width: 316px;
+    height: 537px;
+    left: 50px;
+    top: 250px;
+    
+    /* Copy */
+    
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+    
+    
+    color: #000000;
+}
+
+.buttonmenu{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 371px;
+    top: 30px;
+    background-image: url(./pic/menubtn.png);
+    border: 0px;
+}
+
+.intro{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 440px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.education{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 490px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.portfolio{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 540px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.introtext1{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 50px;
+    top: 110px;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.introtext2{
+    position: absolute;
+width: 316px;
+height: 537px;
+left: 50px;
+top: 247px;
+
+/* Copy */
+
+font-family: Spartan;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+/* or 130% */
+
+
+color: #000000;
+}
+
+.work{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 590px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.skills{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 640px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.interest{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 690px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.contact{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 740px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.cookie{
+    border: 0px;
+    background-color: #FFFFFF;
+    top: 790px;
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    left: 51px;
+    border-radius: 0px;
+    font-style: normal;
+    font-size: 24px;
+    font-family:  spartan;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+/* 
+ .currenticon{
+    position: absolute;
+    width: 170px;
+    height: 128px;
+    left: 33px;
+    top: 48px;
+    background: white;
+    margin: 0px;
+ }
+ 
+ .mesto{
+    position: absolute;
+    width: 302px;
+    height: 37px;
+    left: 36px;
+    top: 246px;
+
+ }
+ 
+ .today{
+    position: absolute;
+    width: 296px;
+    height: 87.92px;
+    left: 33px;
+    top: 323px;
+    background: white;
+ }
+ .BOX{
+    width: 296px;
+    height: 90px;
+    left: 39px;
+    top: 323px;
+    
+ }
+.currentdate{
+    position: sticky;
+    width: 150px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family:  YO GOTHIC;
+}
+
+.currenttemp{
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 125px;
+    top: 0px;
+    font-family:  YO GOTHIC;
+}
+
+.time {
+    position: absolute;
+    width: 296px;
+    height: 90px;
+    left: 0px;
+    top: 30px;
+}
+
+.time div {
+    width: 25%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:  YO GOTHIC;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.muchtemp {
+    position: absolute;
+    width: 296px;
+    height: 90px;
+    left: 0px;
+    top: 45px;
+}
+
+.muchtemp div {
+    width: 25%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:  YO GOTHIC;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.prognoz{
+    position: sticky;
+    width: 277px;
+    height: 271px;
+    left: 49px;
+    top: 481px;
+    }
+
+.day1 {
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 3.2%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+    font-family:  YO GOTHIC;
+}
+
+.day2 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 25.57%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.day3 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 44.75%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.day4 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 64.84%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.day5 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 85.39%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.icon1 img{
+        top: 3.2%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        
+        height: 37px;
+        }
+        
+    .icon2 img{
+        top: 25.57%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        }
+        
+    .icon3 img{
+        top: 44.75%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        }
+        
+    .icon4 img{
+        top: 64.84%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        
+        }
+        
+    .icon5 img{
+        top: 85.39%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        }
+        
+    .maxtemp1{
+        font-family:  YO GOTHIC;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        top: 3.2%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+        
+    .mintemp1{
+        font-family:  YO GOTHIC;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        top: 3.2%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+    .maxtemp2{
+        font-family:  YO GOTHIC;
+        top: 25.57%;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+        
+    .mintemp2{
+        font-family:  YO GOTHIC;
+        top: 25.57%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+    .maxtemp3{
+        font-family:  YO GOTHIC;
+        top: 44.75%;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+        
+    .mintemp3{
+        font-family:  YO GOTHIC;
+        top: 44.75%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+    
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+        .maxtemp4{
+            font-family:  YO GOTHIC;
+            top: 64.84%;  
+            position: absolute;
+            left: 60%;
+            right: 45.97%;
+            bottom: 83.11%;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            color: black;
+            height: 37px;
+        }
+        
+    .mintemp4{
+        font-family:  YO GOTHIC;
+        top: 64.84%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+    .maxtemp5{
+        font-family:  YO GOTHIC;
+        top: 85.39%;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+       
+    .mintemp5{
+        font-family:  YO GOTHIC;
+        top: 85.39%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        } */
